@@ -1,0 +1,29 @@
+li {
+display: inline;
+border: 2px solid rgb(44, 44, 88);
+padding: 5px 5px;
+}
+a{
+text-decoration: none ;
+}
+
+@media only screen and (max-width: 1024px) {
+#balonmano{
+    display: none;
+    position: hidden;
+}
+}
+
+@media only screen and (max-width: 768px) {
+    #tenis{
+        display: none;
+        position: hidden;
+    }
+    }
+
+    @media only screen and (max-width: 480px) {
+        #baloncesto {
+            display: none;
+            position: hidden;
+        }
+        }
